@@ -30,21 +30,21 @@ I used *OSS CAD Suite* version 20261030 ran in WSL. In particular:
 GNU Make 4.3 builds the simulation .vvp files.
 
 ## Build
-,,,
+```
 make
-,,,
+```
 This produces all the .vvp simulation files.
 
 ## Test
-,,,
+```
 vvp filename.vvp
-,,,
+```
 Running each testbench produces the corresponding .vcd graph file.
 
 ## Graph
-,,,
+```
 gtkwave filename.vcd
-,,,
+```
 
 ## Disclaimer
 Made for personal educational purposes: I'm pretty sure there could be better / more elegant ways to do the same things. This was my way to learn Verilog.
